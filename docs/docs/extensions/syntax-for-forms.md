@@ -589,14 +589,14 @@ defaults to `text`.
 
 ![Paragraph Field](../../images/fields/paragraph.png)
 
-The `paragraph` field allows you to display a paragraph of text. The `headline` is optional. There is no `value` for
+The `paragraph` field allows you to display a paragraph of text. The `title` is optional. There is no `value` for
 this field.
 
 ```yaml
   - type: paragraph
     id: paragraph
     attributes:
-      headline: Headline
+      title: Headline
       content: Lorem ipsum dolor sit amet, consetetur sadipscing elitr…
 ```
 
