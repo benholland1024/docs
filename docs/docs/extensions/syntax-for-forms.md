@@ -924,6 +924,7 @@ The `accordion` field can be used to group any number of other fields.
     id: my-accordion
     attributes:
       label: My Accordion
+      icon: gear
     fields:
       - type: boolean
         id: random
@@ -941,7 +942,7 @@ The `accordion` field can be used to group any number of other fields.
       - ...
 ```
 
-The field does not store any values.
+The `icon` attribute can be set to the name of any [Fontawesome icon](https://fontawesome.com/search).  The field does not store any values.
 
 ### Group Field
 
